@@ -1,38 +1,123 @@
-.App {
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* .heroBlock {
+  background: url('images/bg-hero.jpg') no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heroBlock .container-fluid {
+  display: block !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heroBlock .ant-carousel,
+.heroBlock .ant-carousel div {
+  height: 100%;
+}
+
+.heroBlock .slick-dots li button {
+  background: #000 !important;
+}
+
+.heroBlock .slick-dots li.slick-active button {
+  background: #1890ff !important;
+}
+
+.heroBlock .content {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 0 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.heroBlock h3 {
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heroBlock p {
+  margin: 0 0 30px;
 }
+
+.heroBlock .btnHolder {
+  height: auto !important;
+}
+
+.heroBlock .btnHolder button,
+.heroBlock .btnHolder .fas {
+  margin: 0 10px 0 0;
+}
+.logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.ant-row{
+  text-align: center;
+  background: #fff;
+}
+
+.card-media{
+  width: 100%;
+}
+.it-p{
+  padding: 20px;
+}
+.bal{
+  background: #f2f2f7;
+  margin-top: 10px;
+}
+
+  .ant-card {
+    width: 240px !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    margin-top: 50px;
+    
+} */
+/* .container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin-top: 70px;
+} */
+
+/* .titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+  margin-top: 50px;
+}
+
+.titleHolder:after {
+  transform: translateX(-50%);
+  content: '';
+  background: #1890ff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 50px;
+}
+
+.titleHolder h2 {
+  font-size: 28px;
+  margin: 0;
+} */

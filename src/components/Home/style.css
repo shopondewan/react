@@ -1,0 +1,17 @@
+.card-media{
+    width: 684px;
+    padding: 10px 10px;
+    margin-top: -26px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+}
+.dun{
+    width: 100%;
+    height: 1000px;
+    background: chartreuse;
+}

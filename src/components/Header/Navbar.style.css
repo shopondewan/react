@@ -1,0 +1,29 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  background:#D5D8DC;
+  
+}
+.nav-Link{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+ 
+}
+/* .nav-Link.a{
+  color: #262626
+ 
+} */
+a {
+  color: #262626;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  
+}
